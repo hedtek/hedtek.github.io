@@ -147,7 +147,7 @@
 }
 
 .footer-col-wrapper {
-  @include relative-font-size(0.8);
+  font-size: 13px;
   color: $grey-color;
   @extend %clearfix;
 }
