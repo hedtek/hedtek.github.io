@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ebb81c6-ef1d-4527-b15c-6ecb6464a416" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/favicon-32x32.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/_includes/custom-head.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/_layouts/home.html" afterPath="$PROJECT_DIR$/_layouts/home.html" />
-      <change beforePath="$PROJECT_DIR$/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/favicon-32x32.png" afterPath="$PROJECT_DIR$/favicon-32x32.png" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,16 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="_layout.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_sass/minima/_layout.scss">
           <provider selected="true" editor-type-id="text-editor">
@@ -63,10 +52,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="favicon-32x32.png" pinned="false" current-in-tab="true">
+      <file leaf-file-name="favicon-32x32.png" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_site/favicon-32x32.png">
           <provider selected="true" editor-type-id="images">
             <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom-head.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_includes/custom-head.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -171,6 +170,7 @@
         <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/_sass/minima/_layout.scss" />
         <option value="$PROJECT_DIR$/_layouts/home.html" />
+        <option value="$PROJECT_DIR$/_includes/custom-head.html" />
       </list>
     </option>
   </component>
@@ -319,12 +319,12 @@
       <workItem from="1589375424557" duration="539000" />
       <workItem from="1590861162537" duration="598000" />
       <workItem from="1609531353239" duration="83000" />
-      <workItem from="1609540610989" duration="22605000" />
+      <workItem from="1609540610989" duration="22952000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71661000" />
+    <option name="totallyTimeSpent" value="72008000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="28" y="54" width="1080" height="728" extended-state="0" />
@@ -362,14 +362,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_sass/minima/_layout.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4755">
-          <caret line="317" column="17" lean-forward="false" selection-start-line="317" selection-start-column="17" selection-end-line="317" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2019-10-01-web-sites.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -679,6 +671,14 @@
     <entry file="file://$PROJECT_DIR$/_site/favicon-32x32.png">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/custom-head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
