@@ -109,6 +109,7 @@ h2 {
   font-weight: $heading-main-font-weight;
   @include relative-font-size(1.75);
   font-weight: 600;
+  font-family: $header-font-family;
 }
 
 h3 {
