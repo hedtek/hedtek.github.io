@@ -100,12 +100,15 @@ li {
 h1, h2, h3, h4, h5, h6 {
   font-weight: $heading-font-weight;
   color: $brand-color;
+  font-weight: 500;
 }
 
 
 h2 {
   color: $brand-color-intense;
   font-weight: $heading-main-font-weight;
+  @include relative-font-size(1.75);
+  font-weight: 600;
 }
 
 
