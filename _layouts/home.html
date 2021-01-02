@@ -3,29 +3,45 @@ layout: default
 ---
 
 <div class="home">
-    {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-    {%- endif -%}
 
-    {{ content }}
+    <h2 class="post-list-heading">{{ site.title }}</h2>
 
-    {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Selected projects" }}</h2>
-    <ul class="post-list">
-        {%- for post in site.posts -%}
-        <li>
-            <h3>
-                <a class="post-link" href="{{ post.url | relative_url }}">
-                    {{ post.title | escape }}
-                </a>
-            </h3>
-            {%- if site.show_excerpts -%}
-            {{ post.excerpt }}
-            {%- endif -%}
-        </li>
-        {%- endfor -%}
-    </ul>
-
-    {%- endif -%}
-
+    <p>
+        Hedtek was a software house in the period July 2007 to Jul 2016.
+    </p>
+    <p>
+        Besides straightforward commercial work for clients building, extending and running
+        their systems, Hedtek was awarded more than £1M to perform applied research for
+        various UK government-funded organisations.
+    </p>
+    <p>
+        Hedtek developed Gradient; an electronic assessment system for universities
+        and high schools. Gradient primarily focuses on ease-of-use for students and
+        assessors.
+        Hedtek retains its interest in further exploitation of Gradient's
+        patent-protected technology.
+    </p>
+    <p>
+        Hedtek also provided technical and strategic consultancy services.
+    </p>
+    <p>
+        Manchester based, Hedtek was closed as a software house in mid 2016 to enable a
+        move from rain-drenched Manchester to sunnier climes in London.
+    </p>
+    <p>
+        From that time, the company has served as a vehicle
+        for contracting and consultancy activities,
+        together with some open source development work.
+    </p>
+    <p>
+        In a twist in geographic location, Hedtek's
+        <a href="https://linkedin.com/in/markvanharmelen">principal</a>
+        is now the CTO of a Manchester-based startup,
+        <a href="https://prevayl.com">Prevayl</a>,
+        albeit working in the new normal -- fully remotely.
+    </p>
+    <p>
+        Hedtek remains a vehicle for various activities;
+        currently CNC machine development for the commercial market.
+    </p>
 </div>

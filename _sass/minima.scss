@@ -9,7 +9,7 @@ $heading-font-weight: 500;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
 
-$spacing-unit:     30px !default;
+$spacing-unit:     15px !default;
 $footer-spacing-unit: 10px;
 $toc-link-font-size: 18px;
 $nav-font-size:      24px;
@@ -18,11 +18,12 @@ $text-color:       #666 !default;
 $heading-color:     #606060 !default;
 $frame-color:      #ccc !default;
 $background-color: #fdfdfd !default;
-$brand-color: rgba(11, 13, 133, 0.66) !default;
+$brand-color: #516aa4 !default;
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
+
 $orange-color:     #f66a0a !default;
 $table-text-align: left !default;
 
