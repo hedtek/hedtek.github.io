@@ -111,6 +111,10 @@ h2 {
   font-weight: 600;
 }
 
+h3 {
+  @include relative-font-size(1.5);
+}
+
 
 /**
  * Links
