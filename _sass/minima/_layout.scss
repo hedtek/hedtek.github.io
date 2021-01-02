@@ -142,6 +142,11 @@
   margin-left: 0;
 }
 
+.reduced-footnote {
+  @include relative-font-size(0.65);
+
+}
+
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
   color: $grey-color;
@@ -205,8 +210,16 @@
 
 .post-list-heading {
   @include relative-font-size(1.75);
+  color: $brand-color-intense;
+  font-weight: 600;
+}
+
+.post-list-sub-heading {
+  @include relative-font-size(1);
   color: $brand-color;
   font-weight: 500;
+  padding-top: 10px;
+  padding-bottom: 5px;
 }
 
 .post-list {

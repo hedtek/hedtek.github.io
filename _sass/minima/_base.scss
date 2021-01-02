@@ -98,19 +98,24 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: $base-font-weight;
-  color: $heading-color;
+  font-weight: $heading-font-weight;
+  color: $brand-color;
 }
 
-h1, h2, h3 { font-weight: $base-font-weight; }
+
+h2 {
+  color: $brand-color-intense;
+  font-weight: $heading-main-font-weight;
+}
 
 
 /**
  * Links
  */
 a {
-  color: $brand-color;
+  color: $brand-color-hyperlinks;
   text-decoration: none;
+
 
   //&:visited {
   //  color: darken($brand-color, 15%);
